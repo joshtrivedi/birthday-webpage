@@ -219,3 +219,32 @@ footer {
     background-color: #1f1f1f;
     padding-bottom: 0px;
 }
+/* Carousels*/
+.carousel-inner {
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid #000;
+}
+
+@media only screen and (max-width: 1600px){
+    .photo-size {
+        width: auto;
+        height: 450px;
+        max-height: 450px;
+}
+}
+
+@media only screen and (max-width: 800px){
+    .photo-size {
+        width: auto;
+        height: 350px;
+        max-height: 350px;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .photo-size {
+        width: auto;
+        height: 225px;
+        max-height: 225px;
+}
+}
